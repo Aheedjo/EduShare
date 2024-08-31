@@ -9,22 +9,22 @@ const Footer: React.FC = () => {
           <h3 className="text-lg font-bold text-gray-900">Quick Links</h3>
           <ul className="mt-4 space-y-2">
             <li>
-              <Link href="/about" className="text-gray-800 hover:text-white">
+              <Link href="/" className="text-gray-800 hover:text-white">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="text-gray-800 hover:text-white">
+              <Link href="/" className="text-gray-800 hover:text-white">
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/privacy" className="text-gray-800 hover:text-white">
+              <Link href="/" className="text-gray-800 hover:text-white">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/terms" className="text-gray-800 hover:text-white">
+              <Link href="/" className="text-gray-800 hover:text-white">
                 Terms of Service
               </Link>
             </li>
@@ -32,8 +32,8 @@ const Footer: React.FC = () => {
         </div>
         <div>
           <h3 className="text-lg font-bold text-gray-900">Contact Us</h3>
-          <p className="mt-4 text-gray-800">123 School Lane, City, Country</p>
-          <p className="mt-2 text-gray-800">Email: info@school.edu</p>
+          <p className="mt-4 text-gray-800">Samaru, Zaria, Kaduna, Nigeria</p>
+          <p className="mt-2 text-gray-800">Email: info@abu.edu</p>
           <p className="mt-2 text-gray-800">Phone: +123 456 7890</p>
         </div>
         <div>

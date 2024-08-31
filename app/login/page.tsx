@@ -27,7 +27,6 @@ const LoginPage: React.FC = () => {
       if (staffId === validCredentials.staffId && password === validCredentials.password) {
         // Set login status in local storage
         localStorage.setItem('loggedIn', 'true');
-        // Redirect to the appropriate page on successful login
         router.push('/dashboard');
       } else {
         setError('Invalid credentials. Please try again.');

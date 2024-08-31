@@ -18,7 +18,7 @@ const DashboardPage: React.FC = () => {
   const [selectedCourse, setSelectedCourse] = useState<string>('');
   const [selectedLevel, setSelectedLevel] = useState<string>('');
   const [action, setAction] = useState<string | null>(null);
-  const [courseData, setCourseData] = useState<any>(initialCourseData); // Use any to bypass type issues for now
+  const [courseData, setCourseData] = useState<any>(initialCourseData);
   const [file, setFile] = useState<File | null>(null);
   const [url, setUrl] = useState<string>('');
   const [announcement, setAnnouncement] = useState<string>('');

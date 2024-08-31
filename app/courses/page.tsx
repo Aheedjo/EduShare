@@ -6,17 +6,6 @@ import CourseContent from '../components/CourseContent';
 import Header from '../components/Header';
 import { courseData } from '../data';
 
-// Define the types for better type safety
-type CourseData = {
-  [key: string]: {
-    [key: string]: {
-      course: string;
-      materials: string[];
-      announcements: string[];
-    }
-  }
-};
-
 const CoursesPage: React.FC = () => {
   const levels: string[] = ['100', '200', '300', '400'];
   const courses: Record<string, string[]> = {
