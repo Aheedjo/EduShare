@@ -5,40 +5,41 @@ import TeamMember from '../components/TeamMember';
 
 const teamMembers = [
   {
-    name: 'Alice Johnson',
-    regNumber: '2024A001',
-    phone: '123-456-7890',
-    email: 'alice.johnson@example.com',
-    role: 'Team Lead',
+    name: 'Maishanu Ahidjo',
+    regNumber: 'U17CO1010',
+    phone: '08143410800',
+    email: 'maishanu.ahijo@yahoo.com',
   },
   {
-    name: 'Bob Smith',
-    regNumber: '2024B002',
-    phone: '234-567-8901',
-    email: 'bob.smith@example.com',
-    role: 'Developer',
+    name: 'Abdulrahman Yakub Alada',
+    regNumber: 'U18CO2029',
+    phone: '07015500652',
+    email: 'aladarahman18@gmail.com',
   },
   {
-    name: 'Charlie Davis',
-    regNumber: '2024C003',
-    phone: '345-678-9012',
-    email: 'charlie.davis@example.com',
-    role: 'Designer',
+    name: 'Hassan Ibrahim',
+    regNumber: 'U17CO1016',
+    phone: '08104040728',
+    email: 'alhassani.y1k@gmail.com',
   },
   {
-    name: 'Charlie Davis',
-    regNumber: '2024C003',
-    phone: '345-678-9012',
-    email: 'charlie.davis@example.com',
-    role: 'Designer',
+    name: 'Omodiagbe Daniel',
+    regNumber: 'U18CO2030',
+    phone: '08052571786',
+    email: 'nosetale2017@gmail.com',
   },
   {
-    name: 'Charlie Davis',
-    regNumber: '2024C003',
-    phone: '345-678-9012',
-    email: 'charlie.davis@example.com',
-    role: 'Designer',
+    name: 'Feyambai Toumar',
+    regNumber: 'U18CO2020',
+    phone: '07060535408',
+    email: 'feyambaitoumar@gmail.com',
   },
+  {
+    name: 'Hauwa Jalingo',
+    regNumber: 'U18CO2020',
+    phone: '07060535408',
+    email: 'feyambaitoumar@gmail.com',
+  }
 ];
 
 const OurTeamPage: React.FC = () => {
@@ -51,7 +52,7 @@ const OurTeamPage: React.FC = () => {
           <p className="text-lg text-gray-700">Meet the talented individuals who make our team great.</p>
         </div>
 
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-6">
           {teamMembers.map((member) => (
             <TeamMember
               key={member.regNumber}
@@ -59,7 +60,6 @@ const OurTeamPage: React.FC = () => {
               regNumber={member.regNumber}
               phone={member.phone}
               email={member.email}
-              role={member.role}
             />
           ))}
         </div>

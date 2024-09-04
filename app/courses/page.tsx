@@ -9,10 +9,10 @@ import { courseData } from '../data';
 const CoursesPage: React.FC = () => {
   const levels: string[] = ['100', '200', '300', '400'];
   const courses: Record<string, string[]> = {
-    '100': ['Mathematics', 'Physics', 'Chemistry'],
-    '200': ['Advanced_Mathematics', 'Thermodynamics'],
-    '300': ['Quantum_Physics', 'Organic_Chemistry'],
-    '400': ['Astrophysics', 'Quantum_Chemistry'],
+    '100': ['MATHS_102', 'PHYS_122', 'CHEM_112'],
+    '200': ['MMEN_201', 'EEEN_203'],
+    '300': ['COEN_301', 'COEN_307'],
+    '400': ['COEN_403', 'COEN_407'],
   };
 
   const [selectedLevel, setSelectedLevel] = useState<string>('100');

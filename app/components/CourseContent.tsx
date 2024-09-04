@@ -1,11 +1,12 @@
 import React from 'react';
-import { FiDownload, FiEye } from 'react-icons/fi';
+import { FiDownload } from 'react-icons/fi';
 
 interface MaterialItem {
   title: string;
   image: string;
   year?: string;
   description?: string;
+  downloadLink?: string;
 }
 
 interface CourseContentProps {
@@ -39,12 +40,15 @@ const CourseContent: React.FC<CourseContentProps> = ({ course, materials, announ
                   <div className="flex-1">
                     <p className="text-md sm:text-lg font-medium">{note.title}</p>
                   </div>
-                  <div className="flex space-x-2 sm:space-x-4">
-                    <button className="text-blue-500 hover:text-blue-700">
-                      <FiEye size={20}/>
-                    </button>
+                  <div>
                     <button className="text-green-500 hover:text-green-700">
+                    <a 
+                      href="/COEN407.pdf" 
+                      download={note.title}
+                      className="text-green-500 hover:text-green-700"
+                    >
                       <FiDownload size={20} />
+                    </a>
                     </button>
                   </div>
                 </li>
@@ -70,12 +74,10 @@ const CourseContent: React.FC<CourseContentProps> = ({ course, materials, announ
                   {video.description && (
                     <p className="text-sm sm:text-md text-gray-600 mb-3 sm:mb-5">{video.description}</p>
                   )}
-                  <div className="grid grid-cols-2 space-x-2 mt-2 w-full">
-                    <button className="border-primary-green rounded-md border bg-primary-green bg-opacity-50 text-primary-green hover:text-green-800 w-full text-xs sm:text-sm">
-                      View
-                    </button>
-                    <button className="border-primary-green rounded-md border bg-primary-green bg-opacity-50 text-primary-green hover:text-green-800 w-full text-xs sm:text-sm">
+                  <div className="mt-2 w-full">
+                    <button className="border-primary-green rounded-md border bg-primary-green bg-opacity-50 text-green-700 hover:text-green-900 w-full text-xs sm:text-sm flex items-center justify-center gap-3">
                       Download
+                      <FiDownload size={16} />
                     </button>
                   </div>
                 </div>
@@ -104,9 +106,6 @@ const CourseContent: React.FC<CourseContentProps> = ({ course, materials, announ
                     )}
                   </div>
                   <div className="flex space-x-2 sm:space-x-4">
-                    <button className="text-blue-500 hover:text-blue-700">
-                      <FiEye size={20} />
-                    </button>
                     <button className="text-green-500 hover:text-green-700">
                       <FiDownload size={20} />
                     </button>
