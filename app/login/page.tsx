@@ -60,6 +60,13 @@ const LoginPage: React.FC = () => {
             className="mt-2 block w-full border border-primary-green p-2 rounded-md"
           />
         </label>
+
+        <p className="text-sm text-gray-500 mt-2 text-center">
+          Please note: This login system is not connected to the school database. Use the following test credentials:
+          <br />
+          <strong>Staff ID: 123456</strong> and <strong>Password: password123</strong>
+        </p>
+        
         <button
           type="submit"
           className="bg-primary-green text-white px-4 py-2 rounded w-full mt-5"
