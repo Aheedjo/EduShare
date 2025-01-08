@@ -6,7 +6,6 @@ import TeamMember from '../components/TeamMember';
 const teamMembers = [
   {
     name: 'Maishanu Ahidjo',
-    regNumber: 'U17CO1010',
     phone: '08143410800',
     email: 'maishanu.ahijo@yahoo.com',
   },
