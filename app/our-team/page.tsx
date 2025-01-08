@@ -10,36 +10,36 @@ const teamMembers = [
     phone: '08143410800',
     email: 'maishanu.ahijo@yahoo.com',
   },
-  {
-    name: 'Abdulrahman Yakub Alada',
-    regNumber: 'U18CO2029',
-    phone: '07015500652',
-    email: 'aladarahman18@gmail.com',
-  },
-  {
-    name: 'Hassan Ibrahim',
-    regNumber: 'U17CO1016',
-    phone: '08104040728',
-    email: 'alhassani.y1k@gmail.com',
-  },
-  {
-    name: 'Omodiagbe Daniel',
-    regNumber: 'U18CO2030',
-    phone: '08052571786',
-    email: 'nosetale2017@gmail.com',
-  },
-  {
-    name: 'Feyambai Toumar',
-    regNumber: 'U18CO2020',
-    phone: '07060535408',
-    email: 'feyambaitoumar@gmail.com',
-  },
-  {
-    name: 'Hauwa Jalingo',
-    regNumber: 'U18CO2020',
-    phone: '07060535408',
-    email: 'feyambaitoumar@gmail.com',
-  }
+  // {
+  //   name: 'Abdulrahman Yakub Alada',
+  //   regNumber: 'U18CO2029',
+  //   phone: '07015500652',
+  //   email: 'aladarahman18@gmail.com',
+  // },
+  // {
+  //   name: 'Hassan Ibrahim',
+  //   regNumber: 'U17CO1016',
+  //   phone: '08104040728',
+  //   email: 'alhassani.y1k@gmail.com',
+  // },
+  // {
+  //   name: 'Omodiagbe Daniel',
+  //   regNumber: 'U18CO2030',
+  //   phone: '08052571786',
+  //   email: 'nosetale2017@gmail.com',
+  // },
+  // {
+  //   name: 'Feyambai Toumar',
+  //   regNumber: 'U18CO2020',
+  //   phone: '07060535408',
+  //   email: 'feyambaitoumar@gmail.com',
+  // },
+  // {
+  //   name: 'Hauwa Jalingo',
+  //   regNumber: 'U18CO2020',
+  //   phone: '07060535408',
+  //   email: 'feyambaitoumar@gmail.com',
+  // }
 ];
 
 const OurTeamPage: React.FC = () => {
