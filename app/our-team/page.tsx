@@ -56,7 +56,6 @@ const OurTeamPage: React.FC = () => {
             <TeamMember
               key={member.regNumber}
               name={member.name}
-              regNumber={member.regNumber}
               phone={member.phone}
               email={member.email}
             />
